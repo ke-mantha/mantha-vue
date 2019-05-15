@@ -1,0 +1,26 @@
+{
+  "name": "@mantha/package-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --module es6 --target es6 --outDir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ke-mantha/mantha-package-vue.git"
+  },
+  "author": "kaskar2008",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ke-mantha/mantha-package-vue/issues"
+  },
+  "homepage": "https://github.com/ke-mantha/mantha-package-vue#readme",
+  "devDependencies": {
+    "@types/webpack": "^4.4.31",
+    "mini-css-extract-plugin": "^0.6.0",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
+  }
+}
