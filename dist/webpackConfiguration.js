@@ -1,5 +1,7 @@
-import * as MiniCssExtractPlugin from 'mini-css-extract-plugin';
-export const webpackConfigurationFactory = (mode) => ({
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var MiniCssExtractPlugin = require("mini-css-extract-plugin");
+exports.webpackConfigurationFactory = function (mode) { return ({
     resolve: {
         extensions: ['.pug', '.styl']
     },
@@ -67,5 +69,5 @@ export const webpackConfigurationFactory = (mode) => ({
             },
         ]
     }
-});
+}); };
 //# sourceMappingURL=webpackConfiguration.js.map

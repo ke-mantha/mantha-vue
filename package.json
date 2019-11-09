@@ -2,9 +2,9 @@
   "name": "@mantha/package-vue",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc --module es6 --target es6 --outDir ./dist",
+    "build": "tsc --outDir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
