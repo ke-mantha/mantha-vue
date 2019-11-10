@@ -22,5 +22,8 @@
     "mini-css-extract-plugin": "^0.6.0",
     "rimraf": "^2.6.3",
     "typescript": "^3.4.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
